@@ -1887,3 +1887,16 @@ footer {
   opacity: 1;
   transform: translate(0, 0);
 }
+.nav-action{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.header-om{
+    font-size:30px;
+    color:#FF8F00;
+    cursor:default;
+    user-select:none;
+    text-shadow:0 0 10px rgba(230, 132, 3, 0.35);
+}

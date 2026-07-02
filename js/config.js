@@ -8,11 +8,11 @@
 
 const SAHU_NIWAS_CONFIG = {
   // === Contact Information ===
-  phone: "+91 8573058693",          // Display phone number (e.g., "+91 XXXXX XXXXX")
-  phoneRaw: "+91 8573058693",         // Raw phone number for tel: links (no spaces or hyphens)
+  phone: "+918573058693",          // Display phone number (e.g., "+91 XXXXX XXXXX")
+  phoneRaw: "+918573058693",         // Raw phone number for tel: links (no spaces or hyphens)
   
   whatsapp: "+919335169651",       // Display WhatsApp number
-  whatsappRaw: "919335169651",       // Raw WhatsApp number for chat link (include country code, e.g., "91XXXXXXXXXX")
+  whatsappRaw: "+919335169651",       // Raw WhatsApp number for chat link (include country code, e.g., "91XXXXXXXXXX")
   whatsappMessage: "Hello Sahu Niwas! I am interested in booking a room. Please provide more details.", // Pre-filled chat message
   
   email: "contactsahuniwas@gmail.com",    // Contact email address
@@ -32,15 +32,11 @@ const SAHU_NIWAS_CONFIG = {
     }
   },
 
-  // === Embeds & Third-Party Links ===
   // Google Maps Section
-  // You can generate your embed link by searching your location on Google Maps, 
-  // clicking "Share" -> "Embed a map", and copying the URL inside the src attribute of the iframe.
-  googleMapsEmbedUrl: "https://maps.app.goo.gl/dbciXuNDiafManv57",
-  
-  // Google Maps Direct Directions URL (for the "Get Directions" buttons)
-  googleMapsDirectionsUrl: "https://maps.app.goo.gl/dbciXuNDiafManv57", // Replace with your actual Google Maps pin share link
+googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.199573274278!2d78.63630049999999!3d25.4650106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397777837120e519%3A0x2393f6279b6ebfc0!2sSahu%20Niwas!5e0!3m2!1sen!2sin!4v1782972853628!5m2!1sen!2sin",
 
+// Google Maps Direct Directions URL
+googleMapsDirectionsUrl: "https://maps.app.goo.gl/dbciXuNDiafManv57",
   // Google Forms Section
   // To get this link, click "Send" in your Google Form, select the Embed tab (< >),
   // and copy the URL inside the src attribute of the iframe.
